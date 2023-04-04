@@ -1,0 +1,19 @@
+.social > *{
+    font-size: 2.5rem;
+margin-top: 1rem;
+}
+
+.social > * + *{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.social > .tweet:hover{
+    color: rgb(161, 161, 230);
+}
+.social > .linkd:hover{
+    color: blueviolet;
+}
+
+.social > .git:hover{
+    color: black;
+}

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navBrand{
+    font-family: 'Pacifico', cursive;
+    transform: rotate(-10deg);
+}
