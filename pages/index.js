@@ -26,7 +26,7 @@ export default function Home() {
 
             <div className={styles.hero_content}>
               <span className={styles.hero_content_greet}>Hello</span>
-              <h3 className={styles.hero_content_intro}>I am Younus </h3>
+              <h1 className={styles.hero_content_intro}>I am Younus </h1>
               <span className={styles.hero_content_skill}>
                 Front-end  React / Next Developer
               </span>
