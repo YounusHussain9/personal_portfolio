@@ -26,6 +26,7 @@
   );
   position: relative;
 }
+
 .hero_content {
   position: absolute;
   top: 50%;
@@ -114,7 +115,7 @@
 }
 
 .portfolio_sub {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -209,7 +210,6 @@
   color: white;
 }
 
-
 @media (min-width: 769px) {
   .a {
     width: 1440px;
@@ -222,6 +222,11 @@
     width: 100vw;
     height: 100vh;
   }
+
+  .hero_content {
+    top: 40%;
+  }
+
   .hero_content_intro {
     text-align: center;
     font-size: 60px;
@@ -238,6 +243,7 @@
   .portfolio_box2,
   .portfolio_box3 {
     width: 100%;
+    height: auto;
   }
   .contact_sub {
     flex-direction: column;
