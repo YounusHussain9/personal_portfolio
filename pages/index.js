@@ -7,6 +7,7 @@ import Nav from "../components/Navbar/NavComponent";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 import styles from "../styles/Home.module.css";
+import Skill from "../components/Skills/Skills.js/Technology";
 
 export default function Home() {
   return (
@@ -21,9 +22,9 @@ export default function Home() {
         <link rel="icon" href="/static/logo.png" />
       </Head>
 
-      <header>
+          <Nav   />
+      <header id="home">
         <section className={`container ${styles.a} g-0`}>
-          <Nav about="about" portfolio="portfolio" contact="contact" />
           <div className={styles.hero_section}>
             <div className={styles.overlay}></div>
 
@@ -63,7 +64,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-
+<Skill />
           <div className={styles.portfolio} id="portfolio">
             <h3>Portfolio</h3>
             <div className={` ${styles.portfolio_sub}`}>

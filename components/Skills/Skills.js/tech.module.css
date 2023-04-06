@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.tech_container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.tech_sub {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.tech_container > h1 {
+  font-family: "Kanit", sans-serif;
+  color: rgb(40, 78, 1);
+}
+
+.htmlico {
+  color: coral;
+}
+.htmlico,
+.cssico,
+.jsico,
+.reactico,
+.nextico {
+  overflow: auto;
+  font-size: 5rem;
+  transition: 1s ease;
+}
+.cssico {
+  color: cornflowerblue;
+}
+.jsico {
+  background-color: yellow;
+}
+
+.reactico {
+  color: skyblue;
+}
+.reactico:hover,
+.htmlico:hover,
+.cssico:hover,
+.jsico:hover,
+.nextico:hover {
+  transform: translateY(-0.4rem);
+}
+
+@media (max-width: 768px) {
+  .tech_sub {
+    flex-direction: column;
+    padding: 1rem;
+    /* justify-content: center; */
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .htmlico,
+  .cssico,
+  .jsico,
+  .reactico,
+  .nextico {
+    font-size: 6rem;
+  }
+}
